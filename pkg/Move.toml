@@ -1,0 +1,6 @@
+[package]
+name = "leakpkg"
+version = "0.0.1"
+
+[addresses]
+leakpkg = "0x0"
